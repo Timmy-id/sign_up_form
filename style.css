@@ -130,7 +130,8 @@ button {
     }
 }
 
-@media (max-width: 376px) {
+
+@media (max-width: 400px) {
     .form-container {
         height: 90%;
         width: 100%;
