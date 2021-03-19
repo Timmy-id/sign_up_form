@@ -133,11 +133,32 @@ button {
 @media (max-width: 500px) {
     .form-container {
         height: 90%;
-        width: 100%;
+        width: 95%;
     }
 
     .form {
         width: 90%;
+        height: 95%;
+    }
+
+    .form-header {
+        padding-top: 40px;
+    }
+
+    .form-header h1 {
+        padding-bottom: 20px;
+    }
+
+    .form-body {
+        padding-top: 20px;
+    }
+
+    button {
+        margin-top: 50px;
+    }
+
+    #footer-text {
+        padding-top: 20px;
     }
 }
 
