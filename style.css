@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+  body {
+    background-color: #333333;
+    font-family: 'Roboto', sans-serif;
+  }
+
+h1, p {
+    color: gray;
+    text-align: center;
+    font-weight: 400;
+}
+
+p {
+    /* font-size: 14px; */
+    opacity: 0.6;
+}
+
+input {
+    border: none;
+    background: none;
+    padding-bottom: 10px;
+    padding-top: 25px;
+    width: 80%;
+}
+
+input:focus {
+    outline: none;
+    
+}
+
+::placeholder {
+    color: #dcdcdc;
+    font-size: 14px;
+    font-weight: 700;
+    opacity: 1;
+}
+
+.icon-text {
+    padding-right: 20px;
+    opacity: .5;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    /* height: 100%; */
+    width: 50%;
+    background-color: #F3F2F7;
+    max-width: 500px;
+    /* max-height: 800px; */
+    height: 80%;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.form {
+    box-shadow: -0.5px 1px 3px 2px #d3d3d3;
+    /* border: 2px solid #d3d3d3; */
+    width: 85%;
+    margin: auto;
+    /* max-width: 500px; */
+    background-color: #fff;
+    height: 90%;
+    
+    /* max-width: 500px; */
+}
+
+.form-header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.form-header h1 {
+    padding-top: 30px;
+}
+
+.form-header p {
+    width: 100%;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.form-input {
+    border-bottom: 2px solid #dcdcdc;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.form-body {
+    width: 90%;
+    margin: auto;
+}
+
+button {
+    background-color: #29ab87;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    width: 90%;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 30px 20px;
+}
+
+.green-text {
+    color: #29ab87;
+}
+
+#footer-text {
+    margin: auto;
+    text-align: center;
+    width: 70%;
+    font-size: 12px;
+    opacity: 0.6;
+}
+
+@media (max-width: 1200px) {
+    .form-container {
+        height: 90%;
+    }
+}
+
+@media (max-width: 376px) {
+    .form-container {
+        height: 90%;
+        width: 100%;
+    }
+
+    .form {
+        width: 90%;
+    }
+}
+
