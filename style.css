@@ -8,6 +8,10 @@
     font-family: 'Roboto', sans-serif;
   }
 
+  html, body {
+    height: 100%;
+  }
+
 h1, p {
     color: gray;
     text-align: center;
@@ -55,7 +59,7 @@ input:focus {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100%;
 }
 
 .form-container {
