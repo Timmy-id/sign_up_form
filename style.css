@@ -27,6 +27,14 @@ input {
     width: 80%;
 }
 
+input:nth-child(2) {
+    width: 78%;
+}
+
+#passwordToggle {
+    cursor: pointer;
+}
+
 input:focus {
     outline: none;
     
@@ -131,8 +139,10 @@ button {
 }
 
 @media (max-width: 500px) {
+    .container {}
+
     .form-container {
-        height: 90%;
+        height: 80%;
         width: 95%;
     }
 
