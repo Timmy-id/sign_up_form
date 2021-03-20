@@ -138,12 +138,14 @@ button {
     }
 }
 
-@media (max-width: 500px) {
-    .container {}
-
+@media (max-width: 800px) {
     .form-container {
         height: 80%;
         width: 95%;
+    }
+
+    input:nth-child(2) {
+        width: 70%;
     }
 
     .form {
